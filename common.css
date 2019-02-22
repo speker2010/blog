@@ -1,8 +1,29 @@
 body {
+    align-items: stretch;
+    box-sizing: border-box;
+    background: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
     font-family: sans-serif;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    min-height: 100vh;
+}
+
+a {
+    color: lightskyblue;
+}
+
+a:visited {
+    color: plum;
 }
 
 .container {
+    background: #333;
     max-width: 1070px;
-    margin: 0 auto;
+    margin: 0 auto;    
+    padding: 15px; 
+    width: 100%;   
 }
