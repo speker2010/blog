@@ -27,25 +27,30 @@
         <h2>Сделать дамп</h2>
         <code>
             $ mysqldump -uroot -p db > dump.sql
+
         </code>
         <h2>Вывести дамп с грепом</h2>
         <code>
             $ cat dump.sql | grep 'DROP' > drop.sql
+
         </code>
         <p>В консоль выведутся все команды в духе DROP TABLE. Именно они нам и нужны. Нужно будет подчистить файл от лишних комманд если такие будут.</p>
         <h2>Выполнить команды удаления</h2>
         <code>
             $ mysql -uroot -p db < drop.sql
+
         </code>
         <h2>Возможная ошибка</h2>
         <code>
             ERROR 1451 (23000) at line 1: Cannot delete or update a parent row: a foreign key constraint fails
+
         </code>
         <p>Если есть такая ошибка, значит таблицы связаны друг с другом посредством foreign keys. Чтобы все равно все удалить надо добавить строчки в начало файла и в конец:</p>
         <code>
             SET FOREIGN_KEY_CHECKS=0;
             ...
             SET FOREIGN_KEY_CHECKS=1;
+            
         </code>
     </div>
 </body>
