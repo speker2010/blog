@@ -1,11 +1,23 @@
-<?xml version="1.0" encoding="utf-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://speker.tk/</loc>
-    <lastmod>2019-02-21</lastmod>
-  </url>
-  <url>
-    <loc>https://speker.tk/clean-mysql-db.html</loc>
-    <lastmod>2019-02-21</lastmod>
-  </url>  
-</urlset>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<!-- Файл sitemap.xml динамически создан сайтом https://gensitemap.ru/ 18.04.2019 12:17,
+	всего найдено 3. страниц-->
+	<url>
+		<loc>https://speker.tk/</loc>
+		<lastmod>2019-04-18T12:17:59+03:00</lastmod>
+		<priority>1</priority>
+		<changefreq>always</changefreq>
+	</url>
+	<url>
+		<loc>https://speker.tk/clean-mysql-db.html</loc>
+		<lastmod>2019-04-18T12:17:59+03:00</lastmod>
+		<priority>0.5</priority>
+		<changefreq>hourly</changefreq>
+	</url>
+	<url>
+		<loc>https://speker.tk/just-learn-asm.html</loc>
+		<lastmod>2019-04-18T12:17:59+03:00</lastmod>
+		<priority>0.5</priority>
+		<changefreq>hourly</changefreq>
+	</url>
+</urlset>		     		    			    
